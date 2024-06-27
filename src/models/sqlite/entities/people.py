@@ -12,4 +12,4 @@ class PetsTable(Base):
 
 
     def __repr__(self):
-        return f"<People(name={self.first_name}, last_name={self.last_name}, age={self.age}, pet_id={self.pet_id})>"
+        return f"<People(nome={self.first_name}, sobrenome={self.last_name}, idade={self.age}, pet_id={self.pet_id})>"
