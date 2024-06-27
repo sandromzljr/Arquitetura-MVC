@@ -14,3 +14,16 @@ def test_list_pets():
     pets = pets_repository.list_pets()
 
     print(pets)
+
+def test_delete_pet():
+    """
+    Testando o método delete_pet da classe PetsRepository.
+    """
+    name = "belinha"
+
+    pets_repository = PetsRepository(db_connection_handler)
+    pets_repository.delete_pets(name)
+
+    pets = pets_repository.list_pets()
+
+    print(pets)
