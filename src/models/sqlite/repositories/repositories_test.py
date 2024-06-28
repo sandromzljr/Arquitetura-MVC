@@ -15,6 +15,7 @@ def test_list_pets():
 
     print(pets)
 
+@pytest.mark.skip(reason="Interação com o banco de dados SQLite.")
 def test_delete_pet():
     """
     Testando o método delete_pet da classe PetsRepository.
