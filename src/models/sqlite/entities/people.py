@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from src.models.sqlite.settings.base import Base
 
-class PetsTable(Base):
-    __tablename__ = "pets"
+class PeopleTable(Base):
+    __tablename__ = "people"
 
     id = Column(Integer, primary_key=True)
     first_name = Column(String, nullable=False)
