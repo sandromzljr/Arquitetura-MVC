@@ -6,7 +6,8 @@ disable=
     C0116,  # Missing function or method docstring
     W0703,  # Catching too general exception Exception
     C0209,  # Consider Using F String
-    E0015   # Unrecognized file option
+    E0015,  # Unrecognized file option
+    W0719,  # Broad-exception-raise
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
